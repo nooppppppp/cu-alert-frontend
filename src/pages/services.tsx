@@ -19,7 +19,7 @@ const Services: NextPage = () => {
                         <p>Map</p>
                     </a>
                 </Link>
-                <Link href="/">
+                <Link href="/report">
                     <a className='duration-300 hover:scale-[102%] w-full h-48 shadow-service-box rounded-xl space-y-3 grid place-content-center text-center font-semibold text-xl'>
                         <div className='relative aspect-square w-20'>
                             <Image src={WarnIcon} layout="fill" objectFit='contain' />
@@ -28,7 +28,7 @@ const Services: NextPage = () => {
                     </a>
                 </Link>
             </div>
-            <a href="https://lin.ee/1SyLd4S" target="_blank" rel="norefferer" className='flex items-center px-6 py-2 space-x-4 bg-[#F4B4FE] text-white rounded-lg font-semibold'>
+            <a href="https://lin.ee/1SyLd4S" target="_blank" rel="norefferer" className='flex items-center px-14 py-3 space-x-4 bg-[#F4B4FE] text-white rounded-lg font-semibold'>
                 <div className='relative aspect-square w-6'>
                     <Image src={LineIcon} layout="fill" objectFit='contain' />
                 </div>
