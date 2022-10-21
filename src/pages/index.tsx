@@ -12,6 +12,8 @@ const Home: NextPage = () => {
     console.log("Phone number", number)
   }
 
+  console.log("Hello World")
+
   return (
     <div className='flex justify-center bg-white'>
       <div className='min-h-screen w-full max-w-screen-lg grid grid-cols-2 font-montserrat'>
